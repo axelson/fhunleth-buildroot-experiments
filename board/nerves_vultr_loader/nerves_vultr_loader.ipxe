@@ -20,7 +20,8 @@ initrd https://s3.amazonaws.com/files.troodon-software.com/vultr/rootfs.cpio.xz
 
 # Download the Nerves .fw file into the root filesystem
 # IMPORTANT: Update this to your .fw file
-initrd https://s3.amazonaws.com/files.troodon-software.com/vultr/nerves_system_vultr.fw /root/install.fw
+#initrd https://s3.amazonaws.com/files.troodon-software.com/vultr/nerves_system_vultr.fw /root/install.fw
+initrd https://github.com/axelson/fhunleth-buildroot-experiments/releases/download/v1/firmware.fw /root/install.fw
 
 # Boot!!
 boot
